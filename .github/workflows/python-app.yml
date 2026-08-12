@@ -37,3 +37,4 @@ jobs:
     - name: Test with pytest
       run: |
         python liner_reg.py
+        pylint liner_reg.py
